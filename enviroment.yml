@@ -1,0 +1,16 @@
+name: CQA-Solution
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - pytorch-cuda=12.1
+  - accelerate
+  - datasets
+  - evaluate
+  - transformers
+  - jupyter
+  - seaborn
+  - conda-forge::lightning
+  - conda-forge::rouge-score
